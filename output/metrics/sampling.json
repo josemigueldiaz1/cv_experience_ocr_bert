@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "n_per_occupation": 800,
+  "total": 4000,
+  "cap": 20,
+  "at_cap": 27,
+  "at_cap_pct": 0.675,
+  "population_at_cap_pct": 0.621,
+  "download_minutes": 3.28
+}

@@ -1,0 +1,6 @@
+occupation,population,sample,pop_mean,sample_mean,pop_median,sample_median,ks_stat,ks_pvalue
+registered_nurses,17632,800,6.374,6.699,5.574,5.77,0.041,0.149
+elementary_middle_school_teachers,16188,800,6.794,6.771,5.958,6.003,0.017,0.983
+software_developers,13370,800,6.313,6.33,5.56,5.91,0.045,0.09
+accountants_auditors,7784,800,7.278,7.22,6.443,6.542,0.019,0.944
+construction_laborers,5910,800,5.973,5.746,4.663,4.159,0.045,0.111
