@@ -1,0 +1,7 @@
+job,cvs,cer_mean,cer_median,wer_mean,years_ok,ranges_ok,mean_conf,perfect_ranges
+accountants_auditors,800,0.0,0.0,0.0,1.0,1.0,0.9959,1.0
+construction_laborers,800,0.0,0.0,0.0,1.0,1.0,0.9958,1.0
+elementary_middle_school_teachers,800,0.0001,0.0,0.0008,1.0,0.9742,0.9952,0.9575
+registered_nurses,800,0.0,0.0,0.0,1.0,1.0,0.9943,1.0
+software_developers,800,0.0001,0.0,0.0012,1.0,1.0,0.9955,1.0
+ALL,4000,0.0001,0.0,0.0004,1.0,0.9948,0.9953,0.9915
