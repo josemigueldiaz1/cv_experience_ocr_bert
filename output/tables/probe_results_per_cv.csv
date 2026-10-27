@@ -1,0 +1,301 @@
+probe,model,id,expected_change,model_change
+todas las fechas +5 años,Mediana,05422,0.0,0.0
+todas las fechas +5 años,Mediana,11359,0.0,0.0
+todas las fechas +5 años,Mediana,24530,0.0,0.0
+todas las fechas +5 años,Mediana,38638,0.0,0.0
+todas las fechas +5 años,Mediana,47445,0.0,0.0
+todas las fechas +5 años,Mediana,37140,0.0,0.0
+todas las fechas +5 años,Mediana,04643,0.0,0.0
+todas las fechas +5 años,Mediana,58070,0.0,0.0
+todas las fechas +5 años,Mediana,48012,0.0,0.0
+todas las fechas +5 años,Mediana,46094,0.0,0.0
+todas las fechas +5 años,Mediana,45591,0.0,0.0
+todas las fechas +5 años,Mediana,37136,0.0,0.0
+todas las fechas +5 años,Mediana,52695,0.0,0.0
+todas las fechas +5 años,Mediana,25425,0.0,0.0
+todas las fechas +5 años,Mediana,16320,0.0,0.0
+todas las fechas +5 años,Mediana,21716,0.0,0.0
+todas las fechas +5 años,Mediana,48865,0.0,0.0
+todas las fechas +5 años,Mediana,17806,0.0,0.0
+todas las fechas +5 años,Mediana,11670,0.0,0.0
+todas las fechas +5 años,Mediana,57872,0.0,0.0
+todas las fechas +5 años,TF-IDF + Ridge,05422,0.0,-1.8829
+todas las fechas +5 años,TF-IDF + Ridge,11359,0.0,-1.0388
+todas las fechas +5 años,TF-IDF + Ridge,24530,0.0,3.9678
+todas las fechas +5 años,TF-IDF + Ridge,38638,0.0,0.3029
+todas las fechas +5 años,TF-IDF + Ridge,47445,0.0,-2.6762
+todas las fechas +5 años,TF-IDF + Ridge,37140,0.0,0.6274
+todas las fechas +5 años,TF-IDF + Ridge,04643,0.0,-4.4705
+todas las fechas +5 años,TF-IDF + Ridge,58070,0.0,3.3856
+todas las fechas +5 años,TF-IDF + Ridge,48012,0.0,-2.8118
+todas las fechas +5 años,TF-IDF + Ridge,46094,0.0,-4.3338
+todas las fechas +5 años,TF-IDF + Ridge,45591,0.0,2.8764
+todas las fechas +5 años,TF-IDF + Ridge,37136,0.0,-4.9384
+todas las fechas +5 años,TF-IDF + Ridge,52695,0.0,-2.0317
+todas las fechas +5 años,TF-IDF + Ridge,25425,0.0,-3.4141
+todas las fechas +5 años,TF-IDF + Ridge,16320,0.0,-1.0527
+todas las fechas +5 años,TF-IDF + Ridge,21716,0.0,-2.3314
+todas las fechas +5 años,TF-IDF + Ridge,48865,0.0,-4.8392
+todas las fechas +5 años,TF-IDF + Ridge,17806,0.0,0.948
+todas las fechas +5 años,TF-IDF + Ridge,11670,0.0,0.875
+todas las fechas +5 años,TF-IDF + Ridge,57872,0.0,-3.4037
+todas las fechas +5 años,Embeddings + Ridge,05422,0.0,0.6474
+todas las fechas +5 años,Embeddings + Ridge,11359,0.0,-1.3267
+todas las fechas +5 años,Embeddings + Ridge,24530,0.0,3.4583
+todas las fechas +5 años,Embeddings + Ridge,38638,0.0,0.5226
+todas las fechas +5 años,Embeddings + Ridge,47445,0.0,-2.5942
+todas las fechas +5 años,Embeddings + Ridge,37140,0.0,-1.1014
+todas las fechas +5 años,Embeddings + Ridge,04643,0.0,-0.1222
+todas las fechas +5 años,Embeddings + Ridge,58070,0.0,3.7467
+todas las fechas +5 años,Embeddings + Ridge,48012,0.0,-2.6076
+todas las fechas +5 años,Embeddings + Ridge,46094,0.0,-2.3827
+todas las fechas +5 años,Embeddings + Ridge,45591,0.0,3.7759
+todas las fechas +5 años,Embeddings + Ridge,37136,0.0,-1.9373
+todas las fechas +5 años,Embeddings + Ridge,52695,0.0,0.0296
+todas las fechas +5 años,Embeddings + Ridge,25425,0.0,-0.082
+todas las fechas +5 años,Embeddings + Ridge,16320,0.0,-0.404
+todas las fechas +5 años,Embeddings + Ridge,21716,0.0,0.018
+todas las fechas +5 años,Embeddings + Ridge,48865,0.0,-2.1674
+todas las fechas +5 años,Embeddings + Ridge,17806,0.0,-0.5254
+todas las fechas +5 años,Embeddings + Ridge,11670,0.0,2.2826
+todas las fechas +5 años,Embeddings + Ridge,57872,0.0,-0.536
+todas las fechas +5 años,BERT afinado,05422,0.0,-2.2266
+todas las fechas +5 años,BERT afinado,11359,0.0,-0.4883
+todas las fechas +5 años,BERT afinado,24530,0.0,1.4453
+todas las fechas +5 años,BERT afinado,38638,0.0,-1.25
+todas las fechas +5 años,BERT afinado,47445,0.0,-4.375
+todas las fechas +5 años,BERT afinado,37140,0.0,-0.8203
+todas las fechas +5 años,BERT afinado,04643,0.0,-2.9297
+todas las fechas +5 años,BERT afinado,58070,0.0,0.7812
+todas las fechas +5 años,BERT afinado,48012,0.0,-2.9688
+todas las fechas +5 años,BERT afinado,46094,0.0,-5.8984
+todas las fechas +5 años,BERT afinado,45591,0.0,0.957
+todas las fechas +5 años,BERT afinado,37136,0.0,-5.7422
+todas las fechas +5 años,BERT afinado,52695,0.0,-3.8281
+todas las fechas +5 años,BERT afinado,25425,0.0,-2.2656
+todas las fechas +5 años,BERT afinado,16320,0.0,-1.0547
+todas las fechas +5 años,BERT afinado,21716,0.0,-1.6406
+todas las fechas +5 años,BERT afinado,48865,0.0,-5.9766
+todas las fechas +5 años,BERT afinado,17806,0.0,-1.2305
+todas las fechas +5 años,BERT afinado,11670,0.0,-0.6641
+todas las fechas +5 años,BERT afinado,57872,0.0,-1.6797
+todas las fechas +5 años,Reglas de fechas (bonus),05422,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),11359,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),24530,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),38638,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),47445,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),37140,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),04643,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),58070,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),48012,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),46094,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),45591,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),37136,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),52695,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),25425,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),16320,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),21716,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),48865,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),17806,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),11670,0.0,0.0
+todas las fechas +5 años,Reglas de fechas (bonus),57872,0.0,0.0
+borrar el empleo más antiguo,Mediana,05422,-2.6667,0.0
+borrar el empleo más antiguo,Mediana,11359,-2.6667,0.0
+borrar el empleo más antiguo,Mediana,24530,-1.5,0.0
+borrar el empleo más antiguo,Mediana,38638,-2.75,0.0
+borrar el empleo más antiguo,Mediana,47445,-3.1667,0.0
+borrar el empleo más antiguo,Mediana,37140,-2.1667,0.0
+borrar el empleo más antiguo,Mediana,04643,-3.0833,0.0
+borrar el empleo más antiguo,Mediana,58070,-1.9167,0.0
+borrar el empleo más antiguo,Mediana,48012,-3.1667,0.0
+borrar el empleo más antiguo,Mediana,46094,-3.9167,0.0
+borrar el empleo más antiguo,Mediana,45591,-2.0,0.0
+borrar el empleo más antiguo,Mediana,37136,-4.0,0.0
+borrar el empleo más antiguo,Mediana,52695,-3.0833,0.0
+borrar el empleo más antiguo,Mediana,25425,-3.0833,0.0
+borrar el empleo más antiguo,Mediana,16320,-2.9167,0.0
+borrar el empleo más antiguo,Mediana,21716,-2.75,0.0
+borrar el empleo más antiguo,Mediana,48865,-3.4167,0.0
+borrar el empleo más antiguo,Mediana,17806,-2.9167,0.0
+borrar el empleo más antiguo,Mediana,11670,-2.4167,0.0
+borrar el empleo más antiguo,Mediana,57872,-2.9167,0.0
+borrar el empleo más antiguo,TF-IDF + Ridge,05422,-2.6667,-1.603
+borrar el empleo más antiguo,TF-IDF + Ridge,11359,-2.6667,-1.0585
+borrar el empleo más antiguo,TF-IDF + Ridge,24530,-1.5,-0.1489
+borrar el empleo más antiguo,TF-IDF + Ridge,38638,-2.75,-0.4352
+borrar el empleo más antiguo,TF-IDF + Ridge,47445,-3.1667,-3.0574
+borrar el empleo más antiguo,TF-IDF + Ridge,37140,-2.1667,-0.7001
+borrar el empleo más antiguo,TF-IDF + Ridge,04643,-3.0833,-2.4154
+borrar el empleo más antiguo,TF-IDF + Ridge,58070,-1.9167,-0.5101
+borrar el empleo más antiguo,TF-IDF + Ridge,48012,-3.1667,-2.3265
+borrar el empleo más antiguo,TF-IDF + Ridge,46094,-3.9167,-2.6999
+borrar el empleo más antiguo,TF-IDF + Ridge,45591,-2.0,-0.7217
+borrar el empleo más antiguo,TF-IDF + Ridge,37136,-4.0,-2.4686
+borrar el empleo más antiguo,TF-IDF + Ridge,52695,-3.0833,-1.7651
+borrar el empleo más antiguo,TF-IDF + Ridge,25425,-3.0833,-3.4461
+borrar el empleo más antiguo,TF-IDF + Ridge,16320,-2.9167,-2.0042
+borrar el empleo más antiguo,TF-IDF + Ridge,21716,-2.75,-1.8403
+borrar el empleo más antiguo,TF-IDF + Ridge,48865,-3.4167,-2.8718
+borrar el empleo más antiguo,TF-IDF + Ridge,17806,-2.9167,-1.8359
+borrar el empleo más antiguo,TF-IDF + Ridge,11670,-2.4167,-0.9314
+borrar el empleo más antiguo,TF-IDF + Ridge,57872,-2.9167,-2.9959
+borrar el empleo más antiguo,Embeddings + Ridge,05422,-2.6667,-2.6969
+borrar el empleo más antiguo,Embeddings + Ridge,11359,-2.6667,-3.6189
+borrar el empleo más antiguo,Embeddings + Ridge,24530,-1.5,-1.5683
+borrar el empleo más antiguo,Embeddings + Ridge,38638,-2.75,-2.0226
+borrar el empleo más antiguo,Embeddings + Ridge,47445,-3.1667,-3.351
+borrar el empleo más antiguo,Embeddings + Ridge,37140,-2.1667,-2.9367
+borrar el empleo más antiguo,Embeddings + Ridge,04643,-3.0833,-2.204
+borrar el empleo más antiguo,Embeddings + Ridge,58070,-1.9167,-0.9085
+borrar el empleo más antiguo,Embeddings + Ridge,48012,-3.1667,-2.5872
+borrar el empleo más antiguo,Embeddings + Ridge,46094,-3.9167,-1.8538
+borrar el empleo más antiguo,Embeddings + Ridge,45591,-2.0,-0.8044
+borrar el empleo más antiguo,Embeddings + Ridge,37136,-4.0,-1.7337
+borrar el empleo más antiguo,Embeddings + Ridge,52695,-3.0833,-2.4922
+borrar el empleo más antiguo,Embeddings + Ridge,25425,-3.0833,-3.1255
+borrar el empleo más antiguo,Embeddings + Ridge,16320,-2.9167,-1.8849
+borrar el empleo más antiguo,Embeddings + Ridge,21716,-2.75,-2.1654
+borrar el empleo más antiguo,Embeddings + Ridge,48865,-3.4167,-2.7778
+borrar el empleo más antiguo,Embeddings + Ridge,17806,-2.9167,-2.2737
+borrar el empleo más antiguo,Embeddings + Ridge,11670,-2.4167,-2.5749
+borrar el empleo más antiguo,Embeddings + Ridge,57872,-2.9167,-3.6929
+borrar el empleo más antiguo,BERT afinado,05422,-2.6667,-2.5781
+borrar el empleo más antiguo,BERT afinado,11359,-2.6667,-2.4609
+borrar el empleo más antiguo,BERT afinado,24530,-1.5,-1.5918
+borrar el empleo más antiguo,BERT afinado,38638,-2.75,-2.6758
+borrar el empleo más antiguo,BERT afinado,47445,-3.1667,-3.5156
+borrar el empleo más antiguo,BERT afinado,37140,-2.1667,-2.3047
+borrar el empleo más antiguo,BERT afinado,04643,-3.0833,-2.6562
+borrar el empleo más antiguo,BERT afinado,58070,-1.9167,-1.8457
+borrar el empleo más antiguo,BERT afinado,48012,-3.1667,-3.3203
+borrar el empleo más antiguo,BERT afinado,46094,-3.9167,-4.0625
+borrar el empleo más antiguo,BERT afinado,45591,-2.0,-1.7188
+borrar el empleo más antiguo,BERT afinado,37136,-4.0,-4.0625
+borrar el empleo más antiguo,BERT afinado,52695,-3.0833,-3.1641
+borrar el empleo más antiguo,BERT afinado,25425,-3.0833,-3.6328
+borrar el empleo más antiguo,BERT afinado,16320,-2.9167,-2.8516
+borrar el empleo más antiguo,BERT afinado,21716,-2.75,-2.5
+borrar el empleo más antiguo,BERT afinado,48865,-3.4167,-3.5938
+borrar el empleo más antiguo,BERT afinado,17806,-2.9167,-2.9883
+borrar el empleo más antiguo,BERT afinado,11670,-2.4167,-2.1484
+borrar el empleo más antiguo,BERT afinado,57872,-2.9167,-2.9297
+borrar el empleo más antiguo,Reglas de fechas (bonus),05422,-2.6667,-2.6667
+borrar el empleo más antiguo,Reglas de fechas (bonus),11359,-2.6667,-2.6667
+borrar el empleo más antiguo,Reglas de fechas (bonus),24530,-1.5,-1.5
+borrar el empleo más antiguo,Reglas de fechas (bonus),38638,-2.75,-2.75
+borrar el empleo más antiguo,Reglas de fechas (bonus),47445,-3.1667,-3.1667
+borrar el empleo más antiguo,Reglas de fechas (bonus),37140,-2.1667,-2.1667
+borrar el empleo más antiguo,Reglas de fechas (bonus),04643,-3.0833,-3.0833
+borrar el empleo más antiguo,Reglas de fechas (bonus),58070,-1.9167,-1.9167
+borrar el empleo más antiguo,Reglas de fechas (bonus),48012,-3.1667,-3.1667
+borrar el empleo más antiguo,Reglas de fechas (bonus),46094,-3.9167,-3.9167
+borrar el empleo más antiguo,Reglas de fechas (bonus),45591,-2.0,-2.0
+borrar el empleo más antiguo,Reglas de fechas (bonus),37136,-4.0,-4.0
+borrar el empleo más antiguo,Reglas de fechas (bonus),52695,-3.0833,-3.0833
+borrar el empleo más antiguo,Reglas de fechas (bonus),25425,-3.0833,-3.0833
+borrar el empleo más antiguo,Reglas de fechas (bonus),16320,-2.9167,-2.9167
+borrar el empleo más antiguo,Reglas de fechas (bonus),21716,-2.75,-2.75
+borrar el empleo más antiguo,Reglas de fechas (bonus),48865,-3.4167,-3.4167
+borrar el empleo más antiguo,Reglas de fechas (bonus),17806,-2.9167,-2.9167
+borrar el empleo más antiguo,Reglas de fechas (bonus),11670,-2.4167,-2.4167
+borrar el empleo más antiguo,Reglas de fechas (bonus),57872,-2.9167,-2.9167
+el empleo más antiguo empieza 3 años antes,Mediana,05422,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,11359,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,24530,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,38638,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,47445,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,37140,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,04643,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,58070,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,48012,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,46094,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,45591,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,37136,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,52695,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,25425,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,16320,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,21716,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,48865,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,17806,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,11670,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Mediana,57872,3.0,0.0
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,05422,3.0,0.1031
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,11359,3.0,0.5495
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,24530,3.0,0.4769
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,38638,3.0,1.0252
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,47445,3.0,0.3098
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,37140,3.0,1.4406
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,04643,3.0,0.1544
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,58070,3.0,-0.1778
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,48012,3.0,1.0717
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,46094,3.0,-0.1052
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,45591,3.0,-0.1983
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,37136,3.0,-0.2045
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,52695,3.0,-0.348
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,25425,3.0,0.8992
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,16320,3.0,0.4207
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,21716,3.0,-0.0867
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,48865,3.0,-0.9459
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,17806,3.0,0.7866
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,11670,3.0,1.1933
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,57872,3.0,0.7852
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,05422,3.0,-0.2664
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,11359,3.0,0.5238
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,24530,3.0,0.6129
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,38638,3.0,0.0017
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,47445,3.0,-0.0488
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,37140,3.0,0.2156
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,04643,3.0,0.2651
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,58070,3.0,0.0357
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,48012,3.0,0.0477
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,46094,3.0,0.0251
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,45591,3.0,0.1355
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,37136,3.0,0.1395
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,52695,3.0,-0.1068
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,25425,3.0,0.3231
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,16320,3.0,0.2267
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,21716,3.0,-0.2832
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,48865,3.0,0.1887
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,17806,3.0,0.1349
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,11670,3.0,0.1916
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,57872,3.0,0.1232
+el empleo más antiguo empieza 3 años antes,BERT afinado,05422,3.0,0.1562
+el empleo más antiguo empieza 3 años antes,BERT afinado,11359,3.0,0.2344
+el empleo más antiguo empieza 3 años antes,BERT afinado,24530,3.0,0.7812
+el empleo más antiguo empieza 3 años antes,BERT afinado,38638,3.0,0.1953
+el empleo más antiguo empieza 3 años antes,BERT afinado,47445,3.0,0.2344
+el empleo más antiguo empieza 3 años antes,BERT afinado,37140,3.0,0.1172
+el empleo más antiguo empieza 3 años antes,BERT afinado,04643,3.0,0.5469
+el empleo más antiguo empieza 3 años antes,BERT afinado,58070,3.0,0.4883
+el empleo más antiguo empieza 3 años antes,BERT afinado,48012,3.0,0.2344
+el empleo más antiguo empieza 3 años antes,BERT afinado,46094,3.0,0.5469
+el empleo más antiguo empieza 3 años antes,BERT afinado,45591,3.0,0.5859
+el empleo más antiguo empieza 3 años antes,BERT afinado,37136,3.0,0.3906
+el empleo más antiguo empieza 3 años antes,BERT afinado,52695,3.0,0.1562
+el empleo más antiguo empieza 3 años antes,BERT afinado,25425,3.0,0.2344
+el empleo más antiguo empieza 3 años antes,BERT afinado,16320,3.0,0.1953
+el empleo más antiguo empieza 3 años antes,BERT afinado,21716,3.0,0.2344
+el empleo más antiguo empieza 3 años antes,BERT afinado,48865,3.0,0.0
+el empleo más antiguo empieza 3 años antes,BERT afinado,17806,3.0,0.3125
+el empleo más antiguo empieza 3 años antes,BERT afinado,11670,3.0,0.2344
+el empleo más antiguo empieza 3 años antes,BERT afinado,57872,3.0,0.2344
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),05422,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),11359,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),24530,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),38638,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),47445,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),37140,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),04643,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),58070,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),48012,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),46094,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),45591,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),37136,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),52695,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),25425,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),16320,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),21716,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),48865,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),17806,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),11670,3.0,3.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),57872,3.0,3.0

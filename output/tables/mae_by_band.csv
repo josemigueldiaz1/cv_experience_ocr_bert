@@ -1,0 +1,21 @@
+model,band,n,mae
+BERT afinado,0-2,117,0.1093
+BERT afinado,3-5,172,0.0975
+BERT afinado,6-10,198,0.1096
+BERT afinado,11-20,113,0.1428
+Embeddings + Ridge,0-2,117,0.9294
+Embeddings + Ridge,3-5,172,0.9077
+Embeddings + Ridge,6-10,198,0.9857
+Embeddings + Ridge,11-20,113,1.5733
+Mediana,0-2,117,4.2444
+Mediana,3-5,172,1.7667
+Mediana,6-10,198,1.948
+Mediana,11-20,113,8.3144
+Reglas de fechas (bonus),0-2,117,0.0217
+Reglas de fechas (bonus),3-5,172,0.0199
+Reglas de fechas (bonus),6-10,198,0.0205
+Reglas de fechas (bonus),11-20,113,0.0216
+TF-IDF + Ridge,0-2,117,0.7935
+TF-IDF + Ridge,3-5,172,0.7229
+TF-IDF + Ridge,6-10,198,0.7264
+TF-IDF + Ridge,11-20,113,1.1582

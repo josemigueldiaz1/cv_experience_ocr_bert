@@ -1,0 +1,26 @@
+model,occupation,n,mae
+Mediana,accountants_auditors,120,3.9234
+Mediana,construction_laborers,120,3.7898
+Mediana,elementary_middle_school_teachers,120,3.5905
+Mediana,registered_nurses,120,3.4418
+Mediana,software_developers,120,2.9688
+TF-IDF + Ridge,accountants_auditors,120,0.9386
+TF-IDF + Ridge,construction_laborers,120,0.8466
+TF-IDF + Ridge,elementary_middle_school_teachers,120,0.7137
+TF-IDF + Ridge,registered_nurses,120,0.7678
+TF-IDF + Ridge,software_developers,120,0.8322
+Embeddings + Ridge,accountants_auditors,120,1.1428
+Embeddings + Ridge,construction_laborers,120,1.0102
+Embeddings + Ridge,elementary_middle_school_teachers,120,1.0562
+Embeddings + Ridge,registered_nurses,120,1.0013
+Embeddings + Ridge,software_developers,120,1.1047
+BERT afinado,accountants_auditors,120,0.1172
+BERT afinado,construction_laborers,120,0.1031
+BERT afinado,elementary_middle_school_teachers,120,0.1162
+BERT afinado,registered_nurses,120,0.1026
+BERT afinado,software_developers,120,0.1225
+Reglas de fechas (bonus),accountants_auditors,120,0.0205
+Reglas de fechas (bonus),construction_laborers,120,0.0218
+Reglas de fechas (bonus),elementary_middle_school_teachers,120,0.0204
+Reglas de fechas (bonus),registered_nurses,120,0.0201
+Reglas de fechas (bonus),software_developers,120,0.021

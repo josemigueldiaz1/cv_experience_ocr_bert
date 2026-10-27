@@ -1,0 +1,163 @@
+id,job,y,pred,error,n_jobs,gap_years,cause,text
+47951,elementary_middle_school_teachers,20.0,19.297,-0.703,4,0.0,experiencia en el tope de 20 años (poco vista al entrenar),"[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Elementary Middle School Teachers, Bright Meadows Academy, 2017.04-2023.01
+- Designed instructional governance models
+- Directed curriculum revision cycles
+Elementary Middle School Teachers, Learning Garden Academy, 2011.07-2017.04
+- Directed curriculum revision cycles
+- Developed learning progression models
+Elementary Middle School Teachers, Friendly Grove School, 2005.09-2011.07
+- Conducted curriculum reviews
+- Coordinated subject integration
+Elementary Middle School Teachers, Clear Path Academy, 1999.11-2005.09
+- Prepared lesson summaries
+- Prepared visual teaching aids
+EDUCATION
+Master's, Introductory Education, Fieldview University, 2004
+Bachelor's, Basic Education Studies, Blue Ridge University, 2002
+- Completed coursework in classroom assessment techniques
+- Completed coursework in basic education law concepts"
+41224,registered_nurses,16.973,16.328,-0.644,4,2.25,hueco entre empleos,"[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Registered Nurses, Harmony Path Health, 2018.10-2023.01
+- Led nursing process audits
+- Managed care delivery innovation
+Registered Nurses, Helping Hands Medical, 2014.07-2018.10
+- Designed clinical documentation standards
+- Established care delivery standards
+Registered Nurses, LifeSpring Nursing, 2010.04-2014.07
+- Managed patient fall prevention measures
+- Monitored respiratory therapy treatments
+Registered Nurses, EverHands Health Group, 2003.10-2008.01
+- Prepared sterile supplies
+- Assisted with specimen labeling
+EDUCATION
+Associate's degree, Health Technology, Stoneview University, 2002
+- Studied fundamentals of wound assessment
+- Studied fundamentals of musculoskeletal nursing"
+04643,software_developers,12.207,11.562,-0.644,4,1.417,hueco entre empleos,"[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Software Developers, Codepoint Labs, 2020.01-2023.01
+- Built distributed systems
+- Defined engineering best practices
+Software Developers, Openwave Solutions, 2017.01-2020.01
+- Led backend platform development
+- Defined data governance policies
+Software Developers, Brightgrid Software, 2013.01-2016.02
+- Developed RESTful APIs
+- Reviewed pull requests
+Software Developers, Softpath Digital, 2009.06-2012.07
+- Assisted with version control operations
+- Updated routing logic
+EDUCATION
+Bachelor's, Greenfield University, 2007
+- Studied fundamentals of recursion techniques
+- Completed coursework in inversion of control"
+37027,elementary_middle_school_teachers,0.165,0.796,0.631,1,0.0,"otro: fechas bien leídas, el modelo falló la cuenta","[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Elementary Middle School Teachers, Growing Minds Academy, 2022.04-2022.06
+- Prepared daily instructional agendas
+- Maintained classroom bulletin boards
+EDUCATION
+Master's, Basic Education Studies, Riverdale University, 2010
+Bachelor's, Elementary Education Preparation, Riverhaven University, 2008
+- Completed coursework in academic differentiation basics
+- Completed coursework in lesson structure design"
+25216,accountants_auditors,3.783,4.336,0.553,2,1.417,hueco entre empleos,"[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Accountants Auditors, TrustCount Financial, 2020.03-2022.01
+- Designed tax strategies
+- Established compliance monitoring systems
+Accountants Auditors, Integrity Books Co., 2016.11-2018.10
+- Assisted with budget tracking
+- Matched invoices to purchase orders
+EDUCATION
+Master's, Financial Management, Larkspur University, 2005
+Bachelor's, Information Systems, Brightfield University, 2003
+- Studied principles of financial forecasting
+- Studied fundamentals of management reporting"
+56498,software_developers,12.035,11.562,-0.472,4,1.333,hueco entre empleos,"[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Software Developers, Clearstack Labs, 2020.01-2023.01
+- Designed CI/CD frameworks
+- Defined coding standards
+Software Developers, Brightpoint Systems, 2017.01-2020.01
+- Designed observability platforms
+- Implemented data pipeline architectures
+Software Developers, Brightstack Labs, 2014.01-2017.01
+- Developed data processing pipelines
+- Designed application modules
+Software Developers, Cloudcrest Labs, 2009.09-2012.09
+- Created test data sets
+- Updated documentation for implemented features
+EDUCATION
+Some college (no degree), Pineview University, 2006
+- Completed coursework in cloud services integration
+- Completed coursework in code refactoring"
+41104,registered_nurses,0.763,0.317,-0.446,1,0.0,"otro: fechas bien leídas, el modelo falló la cuenta","[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Registered Nurses, ClearView Health Center, 2020.02-2020.11
+- Checked medication dosages
+- Prepared patients for examinations
+EDUCATION
+Bachelor's, Patient Care, Clearbrook University, 2016
+- Completed coursework in cultural competence
+- Studied principles of ostomy care"
+34694,accountants_auditors,15.987,15.547,-0.44,4,0.0,"otro: fechas bien leídas, el modelo falló la cuenta","[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Accountants Auditors, SolidLedger Financial, 2019.01-2023.01
+- Established cost management systems
+- Established financial quality controls
+Accountants Auditors, ClearLedger Accounting, 2015.01-2019.01
+- Designed financial policy frameworks
+- Developed risk management frameworks
+Accountants Auditors, CoreCount Group, 2011.01-2015.01
+- Managed general ledger maintenance
+- Prepared tax returns
+Accountants Auditors, Integrity Books Financial Group, 2007.01-2011.01
+- Assisted with compliance documentation
+- Reviewed timesheets for payroll
+EDUCATION
+Master's, Professional Accounting, Woodcrest University, 2008
+Bachelor's, Business Operations, Southridge University, 2006
+- Studied fundamentals of professional writing
+- Completed coursework in accounting project management"
+55803,construction_laborers,7.948,7.539,-0.408,3,2.667,hueco entre empleos,"[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Construction Laborers, CraftBuild Group, 2020.06-2023.01
+- Managed construction schedules
+- Led complex demolition projects
+Construction Laborers, SolidWay Construction, 2016.06-2019.02
+- Aligned structural components
+- Monitored safety compliance
+Construction Laborers, PrimeStone Co., 2012.06-2015.02
+- Prepared tools and equipment for daily tasks
+- Checked inventory of supplies
+EDUCATION
+High school graduate/GED, Building Maintenance, Briar Ridge High School, 2001
+- Completed coursework in basic surveying tools"
+45389,construction_laborers,8.934,9.336,0.402,3,2.917,hueco entre empleos,"[NAME]
+[LOCATION] | [PHONE] | [EMAIL]
+WORK HISTORY
+Construction Laborers, TrueLine Builders, 2020.02-2023.01
+- Developed structural reinforcement plans
+- Managed multi-phase projects
+Construction Laborers, BuildLine Co., 2014.12-2017.12
+- Installed concrete reinforcements
+- Installed electrical wiring supports
+Construction Laborers, SolidLine Contractors, 2011.03-2014.03
+- Assisted with drywall installation
+- Maintained cleanliness of work areas
+EDUCATION
+High school graduate/GED, Heavy Equipment Operation, Goldenbrook High School, 2000
+- Studied principles of building permits overview"

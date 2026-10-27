@@ -1,0 +1,5 @@
+baseline,mae_baseline,mae_bert,gain,ci_low,ci_high,share_resamples_bert_not_better,significant,resamples
+Mediana,3.5428,0.1123,3.4305,3.2053,3.6609,0.0,True,2000
+TF-IDF + Ridge,0.8198,0.1123,0.7075,0.6522,0.7625,0.0,True,2000
+Embeddings + Ridge,1.0631,0.1123,0.9507,0.8808,1.0209,0.0,True,2000
+Reglas de fechas (bonus),0.0208,0.1123,-0.0916,-0.1,-0.0834,1.0,True,2000

@@ -1,0 +1,6 @@
+model,referencia (sin ruido de OCR),PaddleOCR v6 (el del entrenamiento),PaddleOCR v5 mobile (con ruido),brecha v6 - referencia,brecha con ruido - referencia
+Mediana,3.5428,3.5428,3.5428,0.0,0.0
+TF-IDF + Ridge,0.8203,0.8198,0.8962,-0.0005,0.0759
+Embeddings + Ridge,1.0637,1.0631,1.1523,-0.0006,0.0886
+BERT afinado,0.1129,0.1123,0.6323,-0.0006,0.5194
+Reglas de fechas (bonus),0.0204,0.0208,0.0208,0.0004,0.0004

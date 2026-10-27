@@ -1,0 +1,16 @@
+probe,model,expected_change,model_change,mean_abs_deviation,same_direction
+borrar el empleo más antiguo,BERT afinado,-2.825,-2.83,0.178,1.0
+borrar el empleo más antiguo,Embeddings + Ridge,-2.825,-2.364,0.76,1.0
+borrar el empleo más antiguo,Mediana,-2.825,0.0,2.825,0.0
+borrar el empleo más antiguo,Reglas de fechas (bonus),-2.825,-2.825,0.0,1.0
+borrar el empleo más antiguo,TF-IDF + Ridge,-2.825,-1.792,1.077,1.0
+el empleo más antiguo empieza 3 años antes,BERT afinado,3.0,0.306,2.694,0.95
+el empleo más antiguo empieza 3 años antes,Embeddings + Ridge,3.0,0.124,2.876,0.75
+el empleo más antiguo empieza 3 años antes,Mediana,3.0,0.0,3.0,0.0
+el empleo más antiguo empieza 3 años antes,Reglas de fechas (bonus),3.0,3.0,0.0,1.0
+el empleo más antiguo empieza 3 años antes,TF-IDF + Ridge,3.0,0.357,2.643,0.65
+todas las fechas +5 años,BERT afinado,0.0,-2.093,2.411,0.0
+todas las fechas +5 años,Embeddings + Ridge,0.0,-0.065,1.513,0.0
+todas las fechas +5 años,Mediana,0.0,0.0,0.0,1.0
+todas las fechas +5 años,Reglas de fechas (bonus),0.0,0.0,0.0,1.0
+todas las fechas +5 años,TF-IDF + Ridge,0.0,-1.312,2.61,0.0
