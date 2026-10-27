@@ -1,0 +1,7 @@
+{
+  "model": "rules",
+  "variant": "raw",
+  "train_seconds": 0.0,
+  "inference_seconds_per_cv": 1.185773333296917e-05,
+  "test_cvs_without_dates": 0
+}

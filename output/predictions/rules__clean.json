@@ -1,0 +1,7 @@
+{
+  "model": "rules",
+  "variant": "clean",
+  "train_seconds": 0.0,
+  "inference_seconds_per_cv": 9.539366667013383e-06,
+  "test_cvs_without_dates": 0
+}
