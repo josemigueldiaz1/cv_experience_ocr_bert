@@ -1,0 +1,45 @@
+# cv_experience_ocr_bert — versiones exactas con las que se generaron los resultados.
+# Probado en Windows 11, Python 3.12.10, GPU NVIDIA RTX 5060 Laptop (8 GB, serie 50).
+#
+# PyTorch y PaddlePaddle se instalan desde sus propios indices: las versiones "normales"
+# de PyPI no traen soporte para las GPU de la serie 50 (Blackwell, compute capability 12.0),
+# que necesitan CUDA >= 12.8. Ver README, seccion "Instalacion".
+#
+# Sin GPU NVIDIA: cambia cu128 por cpu en el indice de PyTorch y usa `paddlepaddle==3.4.0`
+# (CPU) en lugar de paddlepaddle-gpu. Todo funciona, pero el OCR y BERT tardan mucho mas.
+
+--extra-index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu129/
+
+# --- OCR -----------------------------------------------------------------------------
+paddlepaddle-gpu==3.4.0
+paddleocr==3.7.0
+paddlex==3.7.2
+
+# --- Modelos -------------------------------------------------------------------------
+torch==2.11.0+cu128
+transformers==5.21.0
+sentence-transformers==6.2.0
+accelerate==1.15.0
+# El tokenizador de DeBERTa-v3 (uno de los backbones comparados) necesita estas dos.
+tiktoken==0.14.0
+sentencepiece==0.2.2
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+
+# --- Datos ---------------------------------------------------------------------------
+datasets==5.1.0
+huggingface_hub==2.3.0
+pyarrow==26.0.0
+pandas==3.1.0
+numpy==2.3.5
+jiwer==4.0.0
+pillow==12.1.0
+pymupdf==2.0
+
+# --- Figuras y app -------------------------------------------------------------------
+matplotlib==3.11.2
+seaborn==0.13.2
+streamlit==1.66.1
+altair==6.3.0
