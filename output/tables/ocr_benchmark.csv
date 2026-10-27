@@ -1,0 +1,4 @@
+model,cvs,seconds_per_cv,cer,wer,years_ok,ranges_ok,cvs_all_ranges_ok,mean_conf
+v6_medium,50,0.2975,0.0001,0.0005,1.0,1.0,1.0,0.9953
+v5_server,50,0.4794,0.0008,0.0093,0.9804,0.96,0.9,0.9823
+v5_mobile_en,50,0.1355,0.002,0.0182,0.8331,0.5783,0.34,0.9909

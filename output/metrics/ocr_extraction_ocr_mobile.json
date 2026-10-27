@@ -1,0 +1,15 @@
+{
+  "model": "v5_mobile_en",
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU (CUDA, Paddle 3.4.0)",
+  "cvs_ok": 4000,
+  "cvs_failed": 0,
+  "failed": [],
+  "seconds_per_cv_mean": 0.167256025,
+  "seconds_per_cv_median": 0.1666,
+  "total_minutes": 11.150401666666665,
+  "lines_per_cv_mean": 14.45325,
+  "mean_confidence": 0.9905914398145748,
+  "min_confidence": 0.92024,
+  "lines_below_0.90": 0,
+  "lines_total": 57813
+}
