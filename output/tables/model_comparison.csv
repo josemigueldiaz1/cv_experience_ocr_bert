@@ -1,0 +1,6 @@
+Model,MAE (years),RMSE (years),Acc ±1,Acc ±2,Acc ±3,Band accuracy,Band macro-F1,R²,Training time,Inference time per CV
+Mediana,3.5428,4.5709,0.1833,0.345,0.4983,0.33,0.1241,-0.0378,0.01 s,0.00 ms
+TF-IDF + Ridge,0.8198,1.0941,0.6717,0.955,0.9867,0.8433,0.8485,0.9405,2.36 s,0.61 ms
+Embeddings + Ridge,1.0631,1.3998,0.5567,0.8733,0.965,0.835,0.8392,0.9027,9.62 s,1.37 ms
+BERT afinado,0.1123,0.1513,1.0,1.0,1.0,0.9767,0.9761,0.9989,13.0 min,4.15 ms
+Reglas de fechas (bonus),0.0208,0.0257,1.0,1.0,1.0,0.9783,0.9781,1.0,0.00 s,0.01 ms

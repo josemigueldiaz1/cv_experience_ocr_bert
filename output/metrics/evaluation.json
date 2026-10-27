@@ -1,0 +1,443 @@
+{
+  "comparison": [
+    {
+      "Model": "Mediana",
+      "MAE (years)": 3.542843738375446,
+      "RMSE (years)": 4.570876965950925,
+      "Acc ±1": 0.18333333333333332,
+      "Acc ±2": 0.345,
+      "Acc ±3": 0.49833333333333335,
+      "Band accuracy": 0.33,
+      "Band macro-F1": 0.12406015037593984,
+      "R²": -0.037751220904974625,
+      "Training time": "0.01 s",
+      "Inference time per CV": "0.00 ms"
+    },
+    {
+      "Model": "TF-IDF + Ridge",
+      "MAE (years)": 0.8197858837076791,
+      "RMSE (years)": 1.0941092423702652,
+      "Acc ±1": 0.6716666666666666,
+      "Acc ±2": 0.955,
+      "Acc ±3": 0.9866666666666667,
+      "Band accuracy": 0.8433333333333334,
+      "Band macro-F1": 0.8485138467733466,
+      "R²": 0.9405412789600759,
+      "Training time": "2.36 s",
+      "Inference time per CV": "0.61 ms"
+    },
+    {
+      "Model": "Embeddings + Ridge",
+      "MAE (years)": 1.0630557852585896,
+      "RMSE (years)": 1.3998168912103706,
+      "Acc ±1": 0.5566666666666666,
+      "Acc ±2": 0.8733333333333333,
+      "Acc ±3": 0.965,
+      "Band accuracy": 0.835,
+      "Band macro-F1": 0.8391572596054914,
+      "R²": 0.9026722576790193,
+      "Training time": "9.62 s",
+      "Inference time per CV": "1.37 ms"
+    },
+    {
+      "Model": "BERT afinado",
+      "MAE (years)": 0.11231458981425159,
+      "RMSE (years)": 0.1513038271541961,
+      "Acc ±1": 1.0,
+      "Acc ±2": 1.0,
+      "Acc ±3": 1.0,
+      "Band accuracy": 0.9766666666666667,
+      "Band macro-F1": 0.9761418869318585,
+      "R²": 0.9988629121560992,
+      "Training time": "13.0 min",
+      "Inference time per CV": "4.15 ms"
+    },
+    {
+      "Model": "Reglas de fechas (bonus)",
+      "MAE (years)": 0.02076182141183982,
+      "RMSE (years)": 0.025746705654580038,
+      "Acc ±1": 1.0,
+      "Acc ±2": 1.0,
+      "Acc ±3": 1.0,
+      "Band accuracy": 0.9783333333333334,
+      "Band macro-F1": 0.9780934850513163,
+      "R²": 0.9999670741097736,
+      "Training time": "0.00 s",
+      "Inference time per CV": "0.01 ms"
+    }
+  ],
+  "bert_gain": [
+    {
+      "baseline": "Mediana",
+      "mae_baseline": 3.542843738375446,
+      "mae_bert": 0.11231458981425159,
+      "gain": 3.4305291485611944,
+      "ci_low": 3.2053115792989,
+      "ci_high": 3.6608855328250356,
+      "share_resamples_bert_not_better": 0.0,
+      "significant": true,
+      "resamples": 2000
+    },
+    {
+      "baseline": "TF-IDF + Ridge",
+      "mae_baseline": 0.8197858837076791,
+      "mae_bert": 0.11231458981425159,
+      "gain": 0.7074712938934276,
+      "ci_low": 0.6522319910105887,
+      "ci_high": 0.7625256494078515,
+      "share_resamples_bert_not_better": 0.0,
+      "significant": true,
+      "resamples": 2000
+    },
+    {
+      "baseline": "Embeddings + Ridge",
+      "mae_baseline": 1.0630557852585896,
+      "mae_bert": 0.11231458981425159,
+      "gain": 0.950741195444338,
+      "ci_low": 0.8807666527542737,
+      "ci_high": 1.0209158635890385,
+      "share_resamples_bert_not_better": 0.0,
+      "significant": true,
+      "resamples": 2000
+    },
+    {
+      "baseline": "Reglas de fechas (bonus)",
+      "mae_baseline": 0.02076182141183982,
+      "mae_bert": 0.11231458981425159,
+      "gain": -0.09155276840241178,
+      "ci_low": -0.09997381798365178,
+      "ci_high": -0.08337282364450768,
+      "share_resamples_bert_not_better": 1.0,
+      "significant": true,
+      "resamples": 2000
+    }
+  ],
+  "top_error_causes": {
+    "hueco entre empleos": 6,
+    "otro: fechas bien leídas, el modelo falló la cuenta": 3,
+    "experiencia en el tope de 20 años (poco vista al entrenar)": 1
+  },
+  "sensitivity": [
+    {
+      "model": "Mediana",
+      "setting": "texto: raw",
+      "test_mae": 3.542843738375446
+    },
+    {
+      "model": "Mediana",
+      "setting": "texto: clean",
+      "test_mae": 3.542843738375446
+    },
+    {
+      "model": "Mediana",
+      "setting": "texto: clean_conf",
+      "test_mae": 3.542843738375446
+    },
+    {
+      "model": "TF-IDF + Ridge",
+      "setting": "texto: raw",
+      "test_mae": 0.8233135548344647
+    },
+    {
+      "model": "TF-IDF + Ridge",
+      "setting": "texto: clean",
+      "test_mae": 0.8197858837076791
+    },
+    {
+      "model": "TF-IDF + Ridge",
+      "setting": "texto: clean_conf",
+      "test_mae": 0.8844695312665631
+    },
+    {
+      "model": "Embeddings + Ridge",
+      "setting": "texto: raw",
+      "test_mae": 1.071820677454174
+    },
+    {
+      "model": "Embeddings + Ridge",
+      "setting": "texto: clean",
+      "test_mae": 1.0630557852585896
+    },
+    {
+      "model": "Embeddings + Ridge",
+      "setting": "texto: clean_conf",
+      "test_mae": 1.1477077984855961
+    },
+    {
+      "model": "BERT afinado",
+      "setting": "texto: raw",
+      "test_mae": 0.11772812462491454
+    },
+    {
+      "model": "BERT afinado",
+      "setting": "texto: clean",
+      "test_mae": 0.11231458981425159
+    },
+    {
+      "model": "BERT afinado",
+      "setting": "texto: clean_conf",
+      "test_mae": 0.18327067966361235
+    },
+    {
+      "model": "Reglas de fechas (bonus)",
+      "setting": "texto: raw",
+      "test_mae": 0.02076182141183982
+    },
+    {
+      "model": "Reglas de fechas (bonus)",
+      "setting": "texto: clean",
+      "test_mae": 0.02076182141183982
+    },
+    {
+      "model": "Reglas de fechas (bonus)",
+      "setting": "texto: clean_conf",
+      "test_mae": 0.25035441082048093
+    },
+    {
+      "model": "TF-IDF + Ridge",
+      "setting": "texto: clean, sin dígitos",
+      "test_mae": 1.7064980405155339
+    },
+    {
+      "model": "BERT afinado",
+      "setting": "texto: clean, pérdida Huber",
+      "test_mae": 0.1212079140208814
+    }
+  ],
+  "fairness_bert": [
+    {
+      "model": "BERT afinado",
+      "attribute": "sex",
+      "group": "Female",
+      "n": 296,
+      "true_mean": 6.676421838904366,
+      "pred_mean": 6.650827768686655,
+      "mae": 0.11437418228415006,
+      "mean_error": -0.025594070217709937,
+      "mean_error_ci_low": -0.04310848870957224,
+      "mean_error_ci_high": -0.008064345985290123,
+      "share_with_career_gap": 0.31756756756756754,
+      "mean_jobs": 2.4763513513513513
+    },
+    {
+      "model": "BERT afinado",
+      "attribute": "sex",
+      "group": "Male",
+      "n": 304,
+      "true_mean": 6.462650988513561,
+      "pred_mean": 6.4459067896792765,
+      "mae": 0.11030919714619256,
+      "mean_error": -0.01674419883428364,
+      "mean_error_ci_low": -0.0332595880259068,
+      "mean_error_ci_high": -0.0009086343807034437,
+      "share_with_career_gap": 0.3618421052631579,
+      "mean_jobs": 2.375
+    },
+    {
+      "model": "BERT afinado",
+      "attribute": "race",
+      "group": "Asian/Pacific Islander",
+      "n": 111,
+      "true_mean": 6.335130244641003,
+      "pred_mean": 6.2855433558558556,
+      "mae": 0.1360391910108062,
+      "mean_error": -0.04958688878514759,
+      "mean_error_ci_low": -0.08062173282770334,
+      "mean_error_ci_high": -0.018273053298272165,
+      "share_with_career_gap": 0.42342342342342343,
+      "mean_jobs": 2.4144144144144146
+    },
+    {
+      "model": "BERT afinado",
+      "attribute": "race",
+      "group": "Black",
+      "n": 51,
+      "true_mean": 6.1452800985305585,
+      "pred_mean": 6.126493566176471,
+      "mae": 0.09744635282480345,
+      "mean_error": -0.01878653235408771,
+      "mean_error_ci_low": -0.05276936013588625,
+      "mean_error_ci_high": 0.01570734504414531,
+      "share_with_career_gap": 0.21568627450980393,
+      "mean_jobs": 2.2745098039215685
+    },
+    {
+      "model": "BERT afinado",
+      "attribute": "race",
+      "group": "White",
+      "n": 438,
+      "true_mean": 6.6763881795516085,
+      "pred_mean": 6.662224199129566,
+      "mae": 0.10803342395499196,
+      "mean_error": -0.014163980422042267,
+      "mean_error_ci_low": -0.027837041300698053,
+      "mean_error_ci_high": -0.0005955506988069956,
+      "share_with_career_gap": 0.3333333333333333,
+      "mean_jobs": 2.4452054794520546
+    }
+  ],
+  "probe": [
+    {
+      "probe": "borrar el empleo más antiguo",
+      "model": "BERT afinado",
+      "expected_change": -2.825,
+      "model_change": -2.830078125,
+      "mean_abs_deviation": 0.17819010416665151,
+      "same_direction": 1.0
+    },
+    {
+      "probe": "borrar el empleo más antiguo",
+      "model": "Embeddings + Ridge",
+      "expected_change": -2.825,
+      "model_change": -2.363653612136841,
+      "mean_abs_deviation": 0.7595161596933622,
+      "same_direction": 1.0
+    },
+    {
+      "probe": "borrar el empleo más antiguo",
+      "model": "Mediana",
+      "expected_change": -2.825,
+      "model_change": 0.0,
+      "mean_abs_deviation": 2.825,
+      "same_direction": 0.0
+    },
+    {
+      "probe": "borrar el empleo más antiguo",
+      "model": "Reglas de fechas (bonus)",
+      "expected_change": -2.825,
+      "model_change": -2.825,
+      "mean_abs_deviation": 0.0,
+      "same_direction": 1.0
+    },
+    {
+      "probe": "borrar el empleo más antiguo",
+      "model": "TF-IDF + Ridge",
+      "expected_change": -2.825,
+      "model_change": -1.791803038413666,
+      "mean_abs_deviation": 1.077394317355338,
+      "same_direction": 1.0
+    },
+    {
+      "probe": "el empleo más antiguo empieza 3 años antes",
+      "model": "BERT afinado",
+      "expected_change": 3.0,
+      "model_change": 0.3056640625,
+      "mean_abs_deviation": 2.6943359375,
+      "same_direction": 0.95
+    },
+    {
+      "probe": "el empleo más antiguo empieza 3 años antes",
+      "model": "Embeddings + Ridge",
+      "expected_change": 3.0,
+      "model_change": 0.1242873191833496,
+      "mean_abs_deviation": 2.87571268081665,
+      "same_direction": 0.75
+    },
+    {
+      "probe": "el empleo más antiguo empieza 3 años antes",
+      "model": "Mediana",
+      "expected_change": 3.0,
+      "model_change": 0.0,
+      "mean_abs_deviation": 3.0,
+      "same_direction": 0.0
+    },
+    {
+      "probe": "el empleo más antiguo empieza 3 años antes",
+      "model": "Reglas de fechas (bonus)",
+      "expected_change": 3.0,
+      "model_change": 3.0,
+      "mean_abs_deviation": 0.0,
+      "same_direction": 1.0
+    },
+    {
+      "probe": "el empleo más antiguo empieza 3 años antes",
+      "model": "TF-IDF + Ridge",
+      "expected_change": 3.0,
+      "model_change": 0.35747986506590107,
+      "mean_abs_deviation": 2.6425201349340988,
+      "same_direction": 0.65
+    },
+    {
+      "probe": "todas las fechas +5 años",
+      "model": "BERT afinado",
+      "expected_change": 0.0,
+      "model_change": -2.0927734375,
+      "mean_abs_deviation": 2.4111328125,
+      "same_direction": 0.0
+    },
+    {
+      "probe": "todas las fechas +5 años",
+      "model": "Embeddings + Ridge",
+      "expected_change": 0.0,
+      "model_change": -0.06530132293701171,
+      "mean_abs_deviation": 1.5134050369262695,
+      "same_direction": 0.0
+    },
+    {
+      "probe": "todas las fechas +5 años",
+      "model": "Mediana",
+      "expected_change": 0.0,
+      "model_change": 0.0,
+      "mean_abs_deviation": 0.0,
+      "same_direction": 1.0
+    },
+    {
+      "probe": "todas las fechas +5 años",
+      "model": "Reglas de fechas (bonus)",
+      "expected_change": 0.0,
+      "model_change": 0.0,
+      "mean_abs_deviation": 0.0,
+      "same_direction": 1.0
+    },
+    {
+      "probe": "todas las fechas +5 años",
+      "model": "TF-IDF + Ridge",
+      "expected_change": 0.0,
+      "model_change": -1.3121007498455302,
+      "mean_abs_deviation": 2.6104097296513604,
+      "same_direction": 0.0
+    }
+  ],
+  "ocr_noise_cost": [
+    {
+      "model": "Mediana",
+      "referencia (sin ruido de OCR)": 3.542843738375446,
+      "PaddleOCR v6 (el del entrenamiento)": 3.542843738375446,
+      "PaddleOCR v5 mobile (con ruido)": 3.542843738375446,
+      "brecha v6 - referencia": 0.0,
+      "brecha con ruido - referencia": 0.0
+    },
+    {
+      "model": "TF-IDF + Ridge",
+      "referencia (sin ruido de OCR)": 0.8202828367097383,
+      "PaddleOCR v6 (el del entrenamiento)": 0.8197858837076791,
+      "PaddleOCR v5 mobile (con ruido)": 0.8961829831425822,
+      "brecha v6 - referencia": -0.0004969530020592083,
+      "brecha con ruido - referencia": 0.07590014643284382
+    },
+    {
+      "model": "Embeddings + Ridge",
+      "referencia (sin ruido de OCR)": 1.0637024980385885,
+      "PaddleOCR v6 (el del entrenamiento)": 1.0630557852585896,
+      "PaddleOCR v5 mobile (con ruido)": 1.1523420299382834,
+      "brecha v6 - referencia": -0.000646712779998948,
+      "brecha con ruido - referencia": 0.08863953189969487
+    },
+    {
+      "model": "BERT afinado",
+      "referencia (sin ruido de OCR)": 0.11287913915172988,
+      "PaddleOCR v6 (el del entrenamiento)": 0.11231458981425159,
+      "PaddleOCR v5 mobile (con ruido)": 0.6322650641470053,
+      "brecha v6 - referencia": -0.0005645493374782928,
+      "brecha con ruido - referencia": 0.5193859249952755
+    },
+    {
+      "model": "Reglas de fechas (bonus)",
+      "referencia (sin ruido de OCR)": 0.020357172395651237,
+      "PaddleOCR v6 (el del entrenamiento)": 0.02076182141183982,
+      "PaddleOCR v5 mobile (con ruido)": 0.02076182141183982,
+      "brecha v6 - referencia": 0.0004046490161885817,
+      "brecha con ruido - referencia": 0.0004046490161885817
+    }
+  ]
+}

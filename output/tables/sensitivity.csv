@@ -1,0 +1,18 @@
+model,setting,test_mae
+Mediana,texto: raw,3.5428
+Mediana,texto: clean,3.5428
+Mediana,texto: clean_conf,3.5428
+TF-IDF + Ridge,texto: raw,0.8233
+TF-IDF + Ridge,texto: clean,0.8198
+TF-IDF + Ridge,texto: clean_conf,0.8845
+Embeddings + Ridge,texto: raw,1.0718
+Embeddings + Ridge,texto: clean,1.0631
+Embeddings + Ridge,texto: clean_conf,1.1477
+BERT afinado,texto: raw,0.1177
+BERT afinado,texto: clean,0.1123
+BERT afinado,texto: clean_conf,0.1833
+Reglas de fechas (bonus),texto: raw,0.0208
+Reglas de fechas (bonus),texto: clean,0.0208
+Reglas de fechas (bonus),texto: clean_conf,0.2504
+TF-IDF + Ridge,"texto: clean, sin dígitos",1.7065
+BERT afinado,"texto: clean, pérdida Huber",0.1212
