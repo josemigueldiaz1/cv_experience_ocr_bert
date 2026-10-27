@@ -1,0 +1,12 @@
+{
+  "model": "embeddings",
+  "variant": "clean",
+  "encoder": "intfloat/e5-small-v2",
+  "alpha": 0.03162277660168379,
+  "val_mae": 1.1031913411912129,
+  "dim": 384,
+  "max_tokens": 512,
+  "cvs_chunked": 0,
+  "train_seconds": 9.622368799999094,
+  "inference_seconds_per_cv": 0.0013673061666668218
+}

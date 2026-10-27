@@ -1,0 +1,7 @@
+{
+  "model": "median",
+  "variant": "clean_conf",
+  "median": 5.696308180905857,
+  "train_seconds": 0.006469800002378179,
+  "inference_seconds_per_cv": 0.0
+}

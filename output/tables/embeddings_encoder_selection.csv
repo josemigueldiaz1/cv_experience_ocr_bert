@@ -1,0 +1,4 @@
+encoder,model,val_mae,alpha,max_tokens
+e5-small,intfloat/e5-small-v2,1.1031913411912129,0.03162277660168379,512
+bge-small,BAAI/bge-small-en-v1.5,1.1477717054725807,0.1,512
+minilm,sentence-transformers/all-MiniLM-L6-v2,1.2202246831438939,0.03162277660168379,256

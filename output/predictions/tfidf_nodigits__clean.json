@@ -1,0 +1,12 @@
+{
+  "model": "tfidf_nodigits",
+  "variant": "clean",
+  "ngrams": "word12+char25",
+  "alpha": 3.1622776601683795,
+  "keep_digits": false,
+  "val_mae": 1.700678978808321,
+  "n_features": 25148,
+  "train_seconds": 1.67927630000122,
+  "grid_search_seconds": 23.139559400002327,
+  "inference_seconds_per_cv": 0.0005791383333356256
+}
