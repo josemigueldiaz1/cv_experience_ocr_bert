@@ -1,0 +1,25 @@
+{
+  "cvs": 4000,
+  "confidence_threshold": 0.98,
+  "cvs_masked_direct_answer": 0,
+  "masked_by_pattern": {
+    "total_experience": 0,
+    "age": 0,
+    "birth_date": 0
+  },
+  "reference_masked_by_pattern": {
+    "total_experience": 0,
+    "age": 0,
+    "birth_date": 0
+  },
+  "lines_total": 57813,
+  "lines_below_threshold": 1182,
+  "lines_below_threshold_pct": 2.044522858180686,
+  "cvs_with_dropped_lines": 1004,
+  "chars_mean": {
+    "raw": 550.81125,
+    "clean": 550.81125,
+    "clean_conf": 539.51425,
+    "reference": 550.82275
+  }
+}

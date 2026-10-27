@@ -1,0 +1,17 @@
+{
+  "cvs": 4000,
+  "cer_mean": 5.103606309812922e-05,
+  "cer_median": 0.0,
+  "cer_p95": 0.0,
+  "wer_mean": 0.0004111259716384349,
+  "wer_median": 0.0,
+  "years_total": 24645,
+  "years_read_ok_pct": 100.0,
+  "ranges_total": 9758,
+  "ranges_read_ok_pct": 99.65156794425087,
+  "ranges_cut_in_image": 34,
+  "cvs_with_range_cut_in_image": 34,
+  "ranges_misread_by_ocr": 0,
+  "cvs_with_all_ranges_ok_pct": 99.15,
+  "mean_confidence": 0.9953262124093993
+}
