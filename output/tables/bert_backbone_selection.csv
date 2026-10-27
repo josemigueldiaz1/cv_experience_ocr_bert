@@ -1,0 +1,4 @@
+backbone,hf_model,val_mae,best_epoch,train_seconds,tokens_mean,tokens_max
+modernbert,answerdotai/ModernBERT-base,0.11004352335843376,20,778.9430461000011,142.2315,221
+distilbert,distilbert-base-uncased,0.13790496967995552,20,247.2254232999985,111.6785,177
+deberta-small,microsoft/deberta-v3-small,0.3693786568666201,3,318.1595759000011,108.2075,172
