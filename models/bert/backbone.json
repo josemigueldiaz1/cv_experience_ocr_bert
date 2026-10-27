@@ -1,0 +1,4 @@
+{
+  "backbone": "modernbert",
+  "hf_model": "answerdotai/ModernBERT-base"
+}
