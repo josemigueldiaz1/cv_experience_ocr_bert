@@ -1,0 +1,41 @@
+# --- Datos pesados: se regeneran con `python run_all.py` (ver README) -------------------
+data/raw/
+data/ocr/
+data/ocr_mobile/
+data/processed/
+# Las listas de IDs del split SI se suben: son pequenas y garantizan la reproducibilidad.
+!data/splits/
+
+# --- Pesos de modelos: nunca en GitHub ---------------------------------------------------
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+models/**/*.joblib
+models/**/*.npy
+models/**/checkpoint-*/
+models/**/optimizer.pt
+# De cada BERT entrenado solo se sube su resumen de entrenamiento (hiperparametros,
+# epoca elegida, tokens, hardware); pesos y tokenizador se regeneran con run_all.
+models/bert/*/*
+!models/bert/*/training_summary.json
+
+# --- Cache de embeddings y predicciones intermedias ---------------------------------------
+output/cache/
+
+# --- Logs de cada corrida -----------------------------------------------------------------
+logs/
+
+# --- Python / entorno --------------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# --- Sistema -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*.docx
